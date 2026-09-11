@@ -26,7 +26,7 @@ struct SettingsView: View {
     private static let width: CGFloat = 300
     private static let inset: CGFloat = 14
     private static let bodyHeight: CGFloat = 400
-    private static let authorURL = URL(string: "https://github.com/sumimakito")!
+    private static let authorURL = URL(string: "https://github.com/Lucavcolazo")!
     private static let screenRecordingSettingsURL = URL(
         string: "x-apple.systempreferences:com.apple.settings.PrivacySecurity.extension?Privacy_ScreenCapture"
     )!
@@ -187,10 +187,9 @@ struct SettingsView: View {
             .padding(.top, 2)
             HStack(spacing: 0) {
                 Text(localized("Made by ")).foregroundStyle(.secondary)
-                Link("Makito", destination: Self.authorURL)
+                Link("Lucky7", destination: Self.authorURL)
                     .pointingHand()
                 Spacer()
-                Text("© 2026 Makito").foregroundStyle(.secondary)
             }
             .font(.caption2)
             .padding(.top, 2)
