@@ -39,7 +39,6 @@ cp "$BINARY" "$BUNDLE/Contents/MacOS/MacDuo"
 # SwiftPM resolves Bundle.module relative to the application bundle.
 cp -R "$BIN_PATH/MacDuo_MacDuo.bundle" "$BUNDLE/Contents/Resources/"
 cp Resources/Info.plist "$BUNDLE/Contents/Info.plist"
-cp LICENSE NOTICE "$BUNDLE/Contents/Resources/"
 if [ -f Resources/AppIcon.icns ]; then
   cp Resources/AppIcon.icns "$BUNDLE/Contents/Resources/AppIcon.icns"
 fi
